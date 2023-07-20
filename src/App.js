@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Counter from "./components/Counter";
+import ExpensiveCalculation from "./components/ExpensiveCalculation";
+import Fibonacci from "./components/Fibonacci";
+import Greeting from "./components/Greeting";
+import MultipleInputsForm from "./components/MultipleInputsForm";
+import NameForm from "./components/NameForm";
+import RandomNumberGenerator from "./components/RandomNumberGenerator";
+import ToDoApp from "./components/ToDoApp";
+import UserProfileForm from "./components/UserProfileForm";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <UserProfileForm />;
 }
 
 export default App;
