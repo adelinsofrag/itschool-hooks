@@ -24,6 +24,6 @@ const Fibonacci = () => {
 };
 
 export default Fibonacci;
-// Explicație (Explanation in Romanian):
+
 //- În acest exemplu, `useMemo` este utilizat pentru a memora rezultatul numărului Fibonacci pentru un anumit număr (`n`).
 //- Când utilizatorul modifică valoarea câmpului de input, funcția `fibonacciNumber` este recalculată doar dacă valoarea `n` se schimbă, reducând costurile de calcul pentru valori repetate.

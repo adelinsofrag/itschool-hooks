@@ -26,7 +26,7 @@ const MultipleInputsForm = () => {
 
 export default MultipleInputsForm;
 
-// Explicație (Explanation in Romanian):
+
 //- În acest exemplu, folosim `useState` pentru a gestiona un obiect `formData` care conține trei câmpuri: `firstName`, `lastName` și `age`.
 //- Funcția `handleInputChange` este folosită pentru a actualiza starea `formData` în funcție de modificările din câmpurile de input.
 //- Valoarea din fiecare câmp de input este preluată din starea `formData` și este afișată într-un paragraf.

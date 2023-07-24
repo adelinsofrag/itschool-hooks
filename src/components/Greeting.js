@@ -15,6 +15,6 @@ const Greeting = () => {
 
 export default Greeting;
 
-// Explicație (Explanation in Romanian):
+
 //- În acest exemplu, `useEffect` este utilizat pentru a afișa mesaje în consolă atunci când componenta este montată (`Component is mounted.`) și demontată (`Component is unmounted.`).
 //- Efectul nu are nicio dependență, așa că funcția returnată este apelată doar când componenta se demontează.

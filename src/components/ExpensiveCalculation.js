@@ -22,7 +22,7 @@ const ExpensiveCalculation = () => {
   );
 };
 export default ExpensiveCalculation;
-// Explicație (Explanation in Romanian):
+
 //- În acest exemplu, `useMemo` este folosit pentru a memora rezultatul unei operații costisitoare (înmulțirea lui `x` cu `y`).
 //- Funcția `expensiveResult` este apelată doar când `x` sau `y` se schimbă, reducând astfel costurile operației costisitoare.
 //- Rezultatul este afișat în paragraf, iar utilizatorul poate modifica valorile câmpurilor de input pentru a recalcule rezultatul.

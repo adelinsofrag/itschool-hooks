@@ -1,5 +1,5 @@
 //3. `useReducer` Hook (Complexitate Scazuta):
-// Explicație (Explanation in Romanian):
+
 //- În acest exemplu, `useReducer` este utilizat pentru a gestiona starea (`count`) și pentru a actualiza valoarea acestuia în funcție de acțiunile primite (`INCREMENT` sau `DECREMENT`).
 //- Apăsând butonul "Increment", starea `count` este incrementată cu 1, iar apăsând butonul "Decrement", starea `count` este decrementată cu 1.
 

@@ -62,7 +62,7 @@ const TodoApp = () => {
   );
 };
 export default TodoApp;
-// Explicație (Explanation in Romanian):
+
 //- În acest exemplu, `useReducer` este folosit pentru a gestiona o aplicație simplă de TODO, care conține trei acțiuni: `ADD_TODO`, `TOGGLE_TODO` și `SET_FILTER`.
 //- Funcțiile `addTodo`, `toggleTodo` și `setFilter` trimit acțiunile corespunzătoare reducer-ului pentru a actualiza starea aplicației.
 //- Starea aplicației este reprezentată de un obiect care conține o listă de obiecte TODO (`todos`) și un filtru (`filter`).

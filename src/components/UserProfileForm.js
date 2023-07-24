@@ -41,7 +41,7 @@ const UserProfileForm = () => {
   );
 };
 export default UserProfileForm;
-// Explicație (Explanation in Romanian):
+
 //- În acest exemplu, `useReducer` este folosit pentru a gestiona starea unui formular cu trei câmpuri: `firstName`, `lastName` și `email`.
 //- Funcția `handleInputChange` este utilizată pentru a actualiza starea în funcție de modificările din câmpurile de input. Numele câmpurilor sunt preluate din atributul `name` al fiecărui input.
 //- Reducer-ul primește un `action` care specifică tipul acțiunii (`SET_FIRST_NAME`, `SET_LAST_NAME` sau `SET_EMAIL`) și o valoare `payload` care reprezintă valoarea modificată din input.

@@ -36,7 +36,7 @@ const RandomNumberGenerator = () => {
   );
 };
 export default RandomNumberGenerator;
-// Explicație (Explanation in Romanian):
+
 //- În acest exemplu, `useEffect` este utilizat pentru a genera un număr aleator la fiecare 1 secundă, doar dacă butonul "Start" este apăsat.
 //- Când utilizatorul apasă butonul "Stop", generarea numerelor aleatoare se oprește.
 //- Apăsând din nou butonul "Start", generarea continuă de la numărul curent.

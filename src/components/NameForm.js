@@ -20,6 +20,6 @@ const NameForm = () => {
 };
 
 export default NameForm;
-// Explicație (Explanation in Romanian):
+
 //- În acest exemplu, folosim `useState` pentru a gestiona un singur câmp de input (`name`) în formular.
 //- Atunci când utilizatorul introduce text în câmpul de input, funcția `handleInputChange` este apelată și actualizează starea `name` cu noul text introdus. Rezultatul se afișează în `<p>` cu mesajul "Hello, {name}!".
